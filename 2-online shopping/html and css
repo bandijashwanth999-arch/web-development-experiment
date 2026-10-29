@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jintra Store</title>
+
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: darkblue;
+            color: white;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            margin: 20px auto;
+            padding: 15px;
+            width: 250px;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 180px;
+            height: 150px;
+            object-fit: contain;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Our Jintra Store</h1>
+    <p>Welcome! Buy your favourite products.</p>
+
+    <div class="product">
+        <h2>Mobile Phone</h2>
+        <img src="https://darlingretail.com/cdn/shop/files/9_77a48048-731f-4492-abe1-e3e0b2a546cb_600x.webp?v=1758261724"
+             alt="Mobile Phone">
+        <p>Price: Rs. 15,000</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+        <h2>Laptop</h2>
+        <img src="https://dlcdnwebimgs.asus.com/gain/30B02883-1847-4CA8-80AC-393A69BB7CD2/w717/h525"
+             alt="Laptop">
+        <p>Price: Rs. 45,000</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+        <h2>Headphones</h2>
+        <img src="https://www.apple.com/v/airpods/ag/images/overview/airpods_max_purple__d9y3g3n7cnyq_large.png"
+             alt="Headphones">
+        <p>Price: Rs. 1,000</p>
+        <button>Buy Now</button>
+    </div>
+
+    <h2>Contact Us</h2>
+    <p>Email: jintrastore@gmail.com</p>
+
+</body>
+</html>
