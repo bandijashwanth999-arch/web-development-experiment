@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Website</title>
+    <style>
+        body {
+            background-color: lightyellow;
+            font-family: Arial;
+            text-align: center;
+        }
+        h1 {
+            background-color:orange ;
+            color: white;
+            padding: 20px;
+        }
+        h2 {
+            color: light blue;
+        }
+        .box {
+            background-color: white;
+            margin: 15px;
+            padding: 15px;
+            border: 1px solid gray;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>NRI Engineering College</h1>
+
+    <div class="box">
+        <h2>Welcome to Our College</h2>
+        <p>Our college provides quality technical education.</p>
+    </div>
+    <div class="box">
+        <h2>Departments</h2>
+        <p>Computer Science Engineering</p>
+        <p>Artificial Intelligence</p>
+        <p>Electronics and Communication</p>
+        <p>Mechanical Engineering</p>
+    </div>
+   <div class="box">
+        <h2>Facilities</h2>
+        <p>Library | Computer Labs | Sports Ground</p>
+    </div>
+    <div class="box">
+        <h2>Admissions</h2>
+        <p>Contact the college office for admission details.</p>
+    </div>
+</body>
+</html>
